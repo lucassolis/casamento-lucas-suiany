@@ -1,0 +1,24 @@
+# Compiled output
+dist/
+tmp/
+out-tsc/
+
+# Node dependencies
+node_modules/
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment files
+*.env
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# Logs
+*.log
+
+# Build cache
+.angular/cache/

@@ -1,0 +1,29 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --color-primary: #FAF8F1;
+  --color-secondary: #414B33;
+  --color-accent: #94A678;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
